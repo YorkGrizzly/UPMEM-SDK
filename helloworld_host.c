@@ -16,15 +16,15 @@ int main(void) {
 //upload
 
   // DPU_ASSERT handles errors in the DPU API and exits in case of error
-  DPU_ASSERT(dpu_alloc(64, NULL, &rank)); // allocates a set of UPMEM dpu ranks
+  DPU_ASSERT(dpu_alloc(64, NULL, &set)); // allocates a set of UPMEM dpu ranks
   
   DPU_ASSERT(dpu_load(set, DPU_BINARY, NULL)); // reads and loads binary executables into the allocated DPU set
   DPU_ASSERT(dpu_launch(set, DPU_SYNCHRONOUS)); // starts execution of program
   //DPU_ASSERT(dpu_get_nr_ranks(set, nr_ranks));
-  DPU_RANK_FOREACH(rank, dpu) { // iterate over the individual DPUs from the allocated set
+  DPU_FOREACH(set, dpu) { // iterate over the individual DPUs from the allocated set
     DPU_ASSERT(dpu_log_read(dpu, stdout)); // fetches the DPU stdout buffer and display it on the host stdout
     DPU_ASSERT(dpu_get_nr_ranks(set, &nr_ranks));
-    DPU_ASSERT(dpu_get_nr_dpus(dpu, &nr_dpus));
+    DPU_ASSERT(dpu_get_nr_dpus(set, &nr_dpus));
     printf("%u %u\n", nr_ranks, nr_dpus);
 
   }
