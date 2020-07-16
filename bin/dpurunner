@@ -1,0 +1,5 @@
+#!/bin/sh
+SCRIPT=$(readlink -f "$0")
+SCRIPTPATH=$(dirname "$SCRIPT")
+java -jar ${SCRIPTPATH}/../share/upmem/bin/dpurunner-2020.3.0.jar "$@"
+

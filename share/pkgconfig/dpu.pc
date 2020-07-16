@@ -1,0 +1,11 @@
+prefix=/usr
+libdir=${prefix}/lib
+includedir=${prefix}/include/dpu
+
+Name: dpu
+Description: DPU management library
+Version: 2020.3.0
+URL: sdk.upmem.com
+
+Cflags: -I${includedir}
+Libs: -L${libdir} -ldpu
