@@ -4,7 +4,7 @@ SCRIPT_DIR="$(readlink -f "$(dirname "${BASH_SOURCE[0]}")")"
 
 export UPMEM_HOME="${SCRIPT_DIR}"
 echo "Setting UPMEM_HOME to ${UPMEM_HOME} and updating PATH/LD_LIBRARY_PATH/PYTHONPATH"
-export LD_LIBRARY_PATH="${UPMEM_HOME}/lib${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}"
+export LD_LIBRARY_PATH="${UPMEM_HOME}/lib64${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}"
 export PATH="${UPMEM_HOME}/bin:${PATH}"
 
 PYTHON_RELATIVE_PATH=$(/usr/bin/env python3 -c "import distutils.sysconfig; print(distutils.sysconfig.get_python_lib(True, False, ''))")

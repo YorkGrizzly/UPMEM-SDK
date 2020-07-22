@@ -1,5 +1,5 @@
 #!/bin/sh
 SCRIPT=$(readlink -f "$0")
 SCRIPTPATH=$(dirname "$SCRIPT")
-java -Djava.library.path=${SCRIPTPATH}/../lib/ -jar ${SCRIPTPATH}/../share/upmem/bin/dpuserviceserver-2020.3.0.jar "$@"
+java -Djava.library.path=${SCRIPTPATH}/../lib64/ -jar ${SCRIPTPATH}/../share/upmem/bin/dpuserviceserver-2020.3.0.jar "$@"
 
