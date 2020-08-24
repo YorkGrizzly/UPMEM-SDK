@@ -1,0 +1,1000 @@
+ 1128  mv nohup.out >> output
+ 1129  mv nohup.out output
+ 1130  nohup ./FMIndex /home/asinha/CA_2019-FP-3/evaluations/data/large.txt &
+ 1131  vi nohup.out 
+ 1132  echo $PATH
+ 1133  export PATH="/bin:$PATH"
+ 1134  ls
+ 1135  pyspark 
+ 1136  python
+ 1137  export PATH="/usr/bin:$PATH"
+ 1138  pyspark 
+ 1139  ls
+ 1140  vi .bashrc
+ 1141  export PATH="/usr/bin:$PATH"
+ 1142  ls
+ 1143  echo $PATH
+ 1144  export PATH="/usr/sbin:$PATH"
+ 1145  ls
+ 1146  export PATH="/bin:$PATH"
+ 1147  ls
+ 1148  spark-shell
+ 1149  export PATH="/usr/bin:$PATH"
+ 1150  export PATH="/bin:$PATH"
+ 1151  which pyspark
+ 1152  ls /home/asinha/spark-2.4.0-bin-hadoop2.7//bin
+ 1153  pyspark.cmd
+ 1154  chmod +x pyspark.cmd
+ 1155  chmod +x /home/asinha/spark-2.4.0-bin-hadoop2.7//bin/pyspark.cmd
+ 1156  pyspark.cmd
+ 1157  pyspark --master local[4]
+ 1158  unset PYSPARK_DRIVER_PYTHON
+ 1159  pyspark --master local[4]
+ 1160  pyspark
+ 1161  export PATH=$PATH:~/.local/bin/
+ 1162  pyspark
+ 1163  cd atgenomix_reqr/
+ 1164  ls
+ 1165  ls spark-jni-projects
+ 1166  cd spark-jni-projects/AtgenomixCuda
+ 1167  ls
+ 1168  cd src/
+ 1169  ls
+ 1170  cd main/native/build/
+ 1171  ls
+ 1172  cd ../..
+ 1173  export PATH="/bin:$PATH"
+ 1174  export PATH="/usr/bin:$PATH"
+ 1175  ls
+ 1176  spark-shell 
+ 1177  vi .bashrc
+ 1178  ls sga/
+ 1179  rm history.txt 
+ 1180  history >> history.txt
+ 1181  vi history.txt 
+ 1182  vi .bashrc
+ 1183  source .bashrc
+ 1184  ls
+ 1185  cd sga/
+ 1186  ls
+ 1187  cd src
+ 1188  ls
+ 1189  vi Makefile
+ 1190  vi SGA/index.cpp 
+ 1191  make >> make_trace.txt
+ 1192  vi make_trace.txt 
+ 1193  vi Makefile
+ 1194  vi make_trace.txt 
+ 1195  ls SGA
+ 1196  vi SGA/Makefile
+ 1197  vi make_trace.txt 
+ 1198  cd ../..
+ 1199  vi history.txt 
+ 1200  source .bashrc
+ 1201  sudo apt-get install swig libgoogle-perftools-dev mercurial scons build-essential
+ 1202  hg clone http://repo.gem5.org/gem5
+ 1203  which hg
+ 1204  git clone https://github.com/gem5/gem5
+ 1205  cd gem5
+ 1206  scons build/X -j 1
+ 1207  ls
+ 1208  ls build
+ 1209  cd ..
+ 1210  rm -r gem5
+ 1211  rm -rf gem5
+ 1212  git clone https://github.com/gem5/gem5
+ 1213  cd gem5/
+ 1214  ls build_opts/
+ 1215  scons build/X86_64/gem5.opt -j 1
+ 1216  ls /home/asinha/gem5/build/variables/
+ 1217  ls build
+ 1218  ls build/variables
+ 1219  vi build/variables.global 
+ 1220  scons build/X86/gem5.opt -j 1
+ 1221  top
+ 1222  source .bashrc
+ 1223  cd gem5
+ 1224  nohup scons build/X86/gem5.opt -j 1
+ 1225  source .bashrc
+ 1226  uname -a
+ 1227  source .bashrc
+ 1228  top
+ 1229  cd gem5
+ 1230  vi nohup.out 
+ 1231  top
+ 1232  vi nohup.out 
+ 1233  source .bashrc
+ 1234  git clone https://github.com/gem5/gem5
+ 1235  cd gem5
+ 1236  scons build/X86/gem5.opt -j 16
+ 1237  build/X86/gem5.opt configs/learning_gem5/part1/simple.py
+ 1238  build/X86/gem5.opt --stats-file=./test_stats configs/learning_gem5/part1/simple.py
+ 1239  ls
+ 1240  ls configs/learning_gem5/part1/
+ 1241  build/X86/gem5.opt --stats-file='test_stats' configs/learning_gem5/part1/simple.py
+ 1242  ls
+ 1243  ls configs/learning_gem5
+ 1244  ls configs/learning_gem5/part3
+ 1245  build/X86/gem5.opt --outdir='test_stats' configs/learning_gem5/part1/simple.py
+ 1246  ls
+ 1247  ls test_stats/
+ 1248  vi test_stats/stats.txt 
+ 1249  rm test_stats
+ 1250  rm -rf test_stats
+ 1251  ls system
+ 1252  source .bashrc
+ 1253  vi history.txt 
+ 1254  ls SBI
+ 1255  ls BIRJ/
+ 1256  vi BIRJ/CheckContained.py 
+ 1257  ls
+ 1258  ls SBI-Spark/
+ 1259  ls *.scala
+ 1260  ls *.sh
+ 1261  ls DAC_code/
+ 1262  ls indexed_range_join/
+ 1263  ls spare
+ 1264  ls tarage
+ 1265  ls target/
+ 1266  ls spark_indexed_range_join
+ 1267  vi spark_indexed_range_join/latest.scala 
+ 1268  ls -gh spark_indexed_range_join
+ 1269  vi spark_indexed_range_join/rangejoin.scala
+ 1270  vi spark_indexed_range_join/Index.scala
+ 1271  vi spark_indexed_range_join/test2.sh
+ 1272  vi spark_indexed_range_join/test1.scala 
+ 1273  vi spark_indexed_range_join/latest.scala 
+ 1274  source .bashrc
+ 1275  ssh amansinha93@140.110.148.11
+ 1276  source .bashrc
+ 1277  ssh amansinha93@140.110.148.11
+ 1278  source .bashrc
+ 1279  mkdir google
+ 1280  cd google
+ 1281  ls
+ 1282  scp credentials.json amansinha93@140.110.148.11:/home/amansinha93/google
+ 1283  scp quickstart_dir.py amansinha93@140.110.148.11:/home/amansinha93/google
+ 1284  exit
+ 1285  source .bashrc
+ 1286  ssh amansinha93@140.110.148.11
+ 1287  source .bascrc
+ 1288  source .bashrc
+ 1289  ssh amansinha93@140.110.148.11
+ 1290  source .bashrc
+ 1291  ssh amansinha93@140.110.148.11
+ 1292  source .bashrc
+ 1293  ssh amansinha93@140.110.148.11
+ 1294  source .bashrc
+ 1295  ssh amansinha93@140.110.148.11
+ 1296  source .bashrc
+ 1297  ssh amansinha93@140.110.148.11
+ 1298  source .bashrc
+ 1299  ssh amansinha93@140.110.148.11
+ 1300  source .bashrc
+ 1301  mkdir sushmitha
+ 1302  cd sushmitha/
+ 1303  vi color_detection.py 
+ 1304  python color_detection.py 
+ 1305  python3 color_detection.py 
+ 1306  python
+ 1307  vi color_detection.py 
+ 1308  echo $PATH
+ 1309  vi .bashrc
+ 1310  source .bashrc
+ 1311  ssh amansinha93@140.110.148.11
+ 1312  source .bashrc
+ 1313  ssh amansinha93@140.110.148.11
+ 1314  source .bashrc
+ 1315  ssh amansinha93@140.110.148.11
+ 1316  vi .bashrc
+ 1317  ssh amansinha93@140.110.148.11
+ 1318  source .bashrc
+ 1319  ls
+ 1320  ls intel
+ 1321  source .bashrc
+ 1322  htop 
+ 1323  exi
+ 1324  exit
+ 1325  source .bashrc
+ 1326  ./a.out 
+ 1327  ls *.cpp
+ 1328  ls *.c
+ 1329  vi test.c
+ 1330  ls intel/
+ 1331  ./intel/vtune_amplifier_2019
+ 1332  cd intel/vtune_amplifier_2019
+ 1333  ls
+ 1334  ls bin64
+ 1335  ./bin64/amplxe-gui
+ 1336  sudo ./bin64/amplxe-gui
+ 1337  pwd
+ 1338  cd ~
+ 1339  sudo /home/asinha/intel/vtune_amplifier_2019/bin64/amplxe-gui
+ 1340  /home/asinha/intel/vtune_amplifier_2019/bin64/amplxe-gui
+ 1341  $USER
+ 1342  echo $HOME
+ 1343  sudo chown -R $USER:$USER $HOME/
+ 1344  sudo /home/asinha/intel/vtune_amplifier_2019/bin64/amplxe-gui
+ 1345  whoami
+ 1346  /home/asinha/intel/vtune_amplifier_2019/bin64/amplxe-gui
+ 1347  ls .dmrc
+ 1348  exit
+ 1349  source .bashrc
+ 1350  /home/asinha/intel/vtune_amplifier_2019/bin64/amplxe-gui
+ 1351  sudo /home/asinha/intel/vtune_amplifier_2019/bin64/amplxe-gui
+ 1352  ls /opt/intel/vtune_amplifier_2019.8.0.604197/
+ 1353  ls /home
+ 1354  su
+ 1355  su root
+ 1356  exit
+ 1357  source .bashrc
+ 1358  wget http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/20130502.phase3.analysis.sequence.index
+ 1359  rm 20130502.phase3.analysis.sequence.index 
+ 1360  wget ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/integrated_sv_map/ALL.autosomes.pindel.20130502.complexindex.low_coverage.genotypes.vcf.gz
+ 1361  gunzip ALL.autosomes.pindel.20130502.complexindex.low_coverage.genotypes.vcf.gz 
+ 1362  ls ALL.autosomes.pindel.20130502.complexindex.low_coverage.genotypes.vcf 
+ 1363  ls -gh ALL.autosomes.pindel.20130502.complexindex.low_coverage.genotypes.vcf 
+ 1364  vi ALL.autosomes.pindel.20130502.complexindex.low_coverage.genotypes.vcf 
+ 1365  wget ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/integrated_sv_map/ALL.wgs.mergedSV.v8.20130502.svs.genotypes.vcf.gz
+ 1366  gunzip ALL.wgs.mergedSV.v8.20130502.svs.genotypes.vcf.gz
+ 1367  ls -gh ALL.wgs.mergedSV.v8.20130502.svs.genotypes.vcf
+ 1368  vi ALL.wgs.mergedSV.v8.20130502.svs.genotypes.vcf
+ 1369  wget ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase1/analysis_results/integrated_call_sets/ALL.wgs.integrated_phase1_v3.20101123.snps_indels_sv.sites.vcf.gz
+ 1370  gunzip ALL.wgs.integrated_phase1_v3.20101123.snps_indels_sv.sites.vcf.gz
+ 1371  ls -gh ALL.wgs.integrated_phase1_v3.20101123.snps_indels_sv.sites.vcf
+ 1372  vi ALL.wgs.integrated_phase1_v3.20101123.snps_indels_sv.sites.vcf
+ 1373  mkdir snvs_data
+ 1374  cd snvs_data/
+ 1375  wget ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase1/analysis_results/integrated_call_sets/ALL.chr22.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.vcf.gz
+ 1376  gunzip ALL.chr22.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.vcf.gz
+ 1377  ls -gh ALL.chr22.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.vcf 
+ 1378  vi ALL.chr22.integrated_phase1_v3.20101123.snps_indels_svs.genotypes.vcf 
+ 1379  mv ../ALL* .
+ 1380  ls
+ 1381  vi ALL.autosomes.pindel.20130502.complexindex.low_coverage.genotypes.vcf
+ 1382  vi ALL.wgs.integrated_phase1_v3.20101123.snps_indels_sv.sites.vcf
+ 1383  vi ALL.wgs.mergedSV.v8.20130502.svs.genotypes.vcf
+ 1384  source .bashrc
+ 1385  ssh amansinha93@140.110.148.11
+ 1386  source .bashrc
+ 1387  ssh amansinha93@140.110.148.11
+ 1388  source .bashrc
+ 1389  ssh amansinha93@140.110.148.11
+ 1390  source .bashrc
+ 1391  ssh amansinha93@140.110.148.11
+ 1392  source .bashrc
+ 1393  ssh amansinha93@140.110.148.11
+ 1394  source .bashrc
+ 1395  ssh amansinha93@140.110.148.11
+ 1396  source .bashrc
+ 1397  ssh amansinha93@140.110.148.11
+ 1398  source .bashrc
+ 1399  ssh amansinha93@140.110.148.11
+ 1400  source .bashrc
+ 1401  ssh amansinha93@140.110.148.11
+ 1402  source .bashrc
+ 1403  ssh amansinha93@140.110.148.11
+ 1404  source .bashrc
+ 1405  ssh amansinha93@140.110.148.11
+ 1406  source .bashrc
+ 1407  ssh amansinha93@140.110.148.11
+ 1408  source .bashrc
+ 1409  ssh amansinha93@140.110.148.11
+ 1410  source .bashrc
+ 1411  ssh amansinha93@140.110.148.11
+ 1412  source .bashrc
+ 1413  vtune_amplifier_2019_update6/install_GUI.sh
+ 1414  which vtune
+ 1415  which Vtune
+ 1416  which intel
+ 1417  ls /usr/
+ 1418  ls /usr/share
+ 1419  ls /usr/shareintel-gpu-tools
+ 1420  ls /usr/share/intel-gpu-tools
+ 1421  source /etc/environment 
+ 1422  ls
+ 1423  ls intel/amplxe/
+ 1424  ls intelvtune_amplifier_2019.6.0.602217/
+ 1425  ls intel/vtune_amplifier_2019.6.0.602217/
+ 1426  ls intel/vtune_amplifier_2019.6.0.602217/bin64/
+ 1427  intel/vtune_amplifier_2019.6.0.602217/bin64/amplxe-gui
+ 1428  intel/vtune_amplifier_2019.6.0.602217/bin64/mem_bench 
+ 1429  intel/vtune_amplifier_2019.6.0.602217/bin64/mem_bench -cpu=8
+ 1430  ls
+ 1431  ls intel/vtune_amplifier_2019.6.0.602217/bin64/
+ 1432  python intel/vtune_amplifier_2019.6.0.602217/bin64/self_check.py
+ 1433  echo /proc/sys/kernel/perf_event_paranoid
+ 1434  vi /proc/sys/kernel/perf_event_paranoid
+ 1435  cat /proc/sys/kernel/perf_event_paranoid
+ 1436  echo 0 > /proc/sys/kernel/perf_event_paranoid
+ 1437  sudo echo 0 > /proc/sys/kernel/perf_event_paranoid
+ 1438  sudo echo 0 > sudo /proc/sys/kernel/perf_event_paranoid
+ 1439  cat /proc/sys/kernel/perf_event_paranoid
+ 1440  sudo sh -c 'echo 0 >/proc/sys/kernel/perf_event_paranoid'
+ 1441  cat /proc/sys/kernel/perf_event_paranoid
+ 1442  python intel/vtune_amplifier_2019.6.0.602217/bin64/self_check.py
+ 1443  sudo sh -c 'echo 0 >/proc/sys/kernel/yama/ptrace_scope'
+ 1444  python intel/vtune_amplifier_2019.6.0.602217/bin64/self_check.py
+ 1445  sudo sh -c 'echo 0 >/proc/sys/kernel/kptr_restrict'
+ 1446  python intel/vtune_amplifier_2019.6.0.602217/bin64/self_check.py
+ 1447  intel/vtune_amplifier_2019.6.0.602217/bin64/amplxe-gui
+ 1448  sudo intel/vtune_amplifier_2019.6.0.602217/bin64/amplxe-gui
+ 1449  ls intel/vtune_amplifier_2019.6.0.602217/bin64/
+ 1450  sudo intel/vtune_amplifier_2019.6.0.602217/bin64/amplxe-cl
+ 1451  sudo intel/vtune_amplifier_2019.6.0.602217/bin64/amplxe-perf
+ 1452  sudo intel/vtune_amplifier_2019.6.0.602217/bin64/amplxe-perf bench
+ 1453  ls intel/vtune_amplifier_2019.6.0.602217/bin64/
+ 1454  ls intel/vtune_amplifier_2019.6.0.602217/bin64/sample/
+ 1455  ls intel/vtune_amplifier_2019.6.0.602217/bin64/sample/matrix/
+ 1456  ls intel/vtune_amplifier_2019.6.0.602217/bin64/sample/matrix/lin_intel64/
+ 1457  strace intel/vtune_amplifier_2019.6.0.602217/bin64/amplxe-gui
+ 1458  ls intel/vtune_amplifier_2019.6.0.602217/bin64
+ 1459  ls intel/vtune_amplifier_2019.6.0.602217/
+ 1460  intel/vtune_amplifier_2019.6.0.602217/uninstall.sh 
+ 1461  ls intel/vtune_amplifier_2019.6.0.602217/
+ 1462  ls intel
+ 1463  ls intel/amplxe/
+ 1464  ls vtune_amplifier_2019_update6
+ 1465  vtune_amplifier_2019_update6/install_GUI.sh
+ 1466  ls vtune_amplifier_2019_update6/
+ 1467  ./intel/vtune_amplifier_2019.6.0.602217/amplxe-vars.sh
+ 1468  ./intel/vtune_amplifier_2019.6.0.602217/bin64/amplxe-gui
+ 1469  su
+ 1470  su asinha
+ 1471  ./intel/vtune_amplifier_2019.6.0.602217/bin64/amplxe-gui
+ 1472  whoami
+ 1473  cd $HOME
+ 1474  source .bashrc
+ 1475  du -sh /dev/sde
+ 1476  df -sh /dev/sde
+ 1477  ls /dev/sde
+ 1478  df /dev/sde
+ 1479  df -h /dev/sde
+ 1480  source .bashrc
+ 1481  df -h /dev/sda1
+ 1482  ls /dev/sda1
+ 1483  ls /media/newhd/
+ 1484  df -h /media/newhd/asinha
+ 1485  du -sh /media/newhd/asinha
+ 1486  df -h $HOME
+ 1487  ls /media/newhd/asinha
+ 1488  vi /media/newhd/asinha/clinvar_20180805.vcf
+ 1489  vi /media/newhd/asinha/NA12878_S1.vcf.gz
+ 1490  rm -rf /media/newhd/asinha/NA12878*
+ 1491  sudo rm -rf /media/newhd/asinha/NA12878*
+ 1492  ls /media/newhd/asinha
+ 1493  sudo rm -rf /media/newhd/asinha/only*
+ 1494  sudo rm -rf /media/newhd/asinha/adam*
+ 1495  vi /media/newhd/asinha/command.sh
+ 1496  vi /media/newhd/asinha/config.h
+ 1497  vi /media/newhd/asinha/config.log 
+ 1498  sudo rm /media/newhd/asinha/config*
+ 1499  sudo rm /media/newhd/asinha/cryosparc_*
+ 1500  sudo rm -rf /media/newhd/asinha/cryosparc_*
+ 1501  ls -gh /media/newhd/asinha/cuda_9.0.176_384.81_linux-run
+ 1502  sudo rm -rf /media/newhd/asinha/cuda_9.0.176_384.81_linux-run
+ 1503  ls -gh /media/newhd/asinha/118_backup/
+ 1504  ls -gh /media/newhd/asinha/118_backup/GenAp
+ 1505  rm -rf /media/newhd/asinha/118_backup/NA12878*
+ 1506  sudo rm -rf /media/newhd/asinha/118_backup/NA12878*
+ 1507  ls -gh /media/newhd/asinha/118_backup/genap-original/
+ 1508  sudo rm -rf /media/newhd/asinha/118_backup/genap-original/
+ 1509  vi /media/newhd/asinha/118_backup/common_all_20170710.vcf 
+ 1510  sudo rm /media/newhd/asinha/118_backup/common_all_20170710.vcf
+ 1511  df -h /media/newhd/asinha
+ 1512  ls -gh /media/newhd/asinha
+ 1513  sudo rm -rf /media/newhd/asinha/bam_values.txt
+ 1514  vi /media/newhd/asinha/check_GPU.txt
+ 1515  vi /media/newhd/asinha/check_serial.txt 
+ 1516  sudo rm /media/newhd/asinha/check_serial.txt
+ 1517  sudo rm /media/newhd/asinha/check_GPU.txt 
+ 1518  sudo rm /media/newhd/asinha/check_Genap.txt 
+ 1519  ls -gh /media/newhd/asinha
+ 1520  ls -gh /media/newhd/asinha/uploads/
+ 1521  ls -gh /media/newhd/asinha/vi
+ 1522  ls -gh /media/newhd/asinha/Videos/
+ 1523  ls -gh /media/newhd/asinha/target/
+ 1524  ls -gh /media/newhd/asinha/spark
+ 1525  ls -gh /media/newhd/asinha/spark-bam/
+ 1526  df -h /media/newhd/asinha
+ 1527  df -h
+ 1528  df -h $HOME
+ 1529  ls -gh $HOME
+ 1530  du -h $HOME
+ 1531  du -ch $HOME | grep total
+ 1532  df -h /media/newhd/asinha
+ 1533  vi sga/src/Makefile
+ 1534  ls sga/src/examples/
+ 1535  vi sga/src/examples/sga-celegans.sh
+ 1536  ls -gh
+ 1537  ls -gh 0000000_data
+ 1538  ls -ghS 
+ 1539  ls -ghS b2bcg.toronto.30229
+ 1540  ls -ghS backup/
+ 1541  ls -ghS clinvar_data/
+ 1542  ls -ghS Text-Generation-PyTorch/
+ 1543  ls -ghS Text-Generation-PyTorch/data/
+ 1544  ls -ghS left_splits/
+ 1545  rm -rf left_splits/
+ 1546  ls -ghS spare
+ 1547  ls -ghS target/
+ 1548  rm NA12878.mapped_only.adam.tar.gz
+ 1549  vi dataB.csv.gz
+ 1550  ls -gh dataB*
+ 1551  rm dataB*
+ 1552  du -ch $HOME | grep total
+ 1553  du -ch /media/newhd/asinha/ | grep total
+ 1554  df -h /media/newhd/asinha/
+ 1555  ls -ghS
+ 1556  du -ch checking/ | grep total
+ 1557  ls checking/
+ 1558  ls -ghS
+ 1559  ls nchc_traces
+ 1560  ls /media/newhd/asinha/
+ 1561  mkdir /media/newhd/asinha/117_backup
+ 1562  sudo mkdir /media/newhd/asinha/117_backup
+ 1563  sudo rsync -av --progress . /media/newhd/asinha/117_backup --exclude checking/
+ 1564  ls gh /media/newhd/asinha/117_backup
+ 1565  ls target/
+ 1566  rm -rf /media/newhd/asinha/117_backup
+ 1567  sudo rm -rf /media/newhd/asinha/117_backup
+ 1568  nohup sudo rsync -av --progress . /media/newhd/asinha/117_backup --exclude checking/ &
+ 1569  top
+ 1570  vi nohup.out 
+ 1571  du -ch /media/newhd/asinha/117_backup | grep total
+ 1572  sudo du -ch /media/newhd/asinha/117_backup | grep total
+ 1573  df -h /media/newhd/asinha
+ 1574  vi nohup.out 
+ 1575  vi history.txt 
+ 1576  history >> history.txt 
+ 1577  vi history.txt 
+ 1578  ssh amansinha93@140.110.148.11
+ 1579  cd vtune_amplifier_2019_update6/
+ 1580  ls
+ 1581  cd ../intel/
+ 1582  ls
+ 1583  ./vtune_amplifier_2019
+ 1584  cd amplxe/
+ 1585  ls
+ 1586  ls sample/
+ 1587  ls projects/
+ 1588  ls settings/
+ 1589  vi sudo
+ 1590  cd 
+ 1591  cd intel/vtune_amplifier
+ 1592  ls
+ 1593  ./amplxe-2019.6.0.602217
+ 1594  ls bin32
+ 1595  cd bin64
+ 1596  ls
+ 1597  ./amplxe-gui.desktop
+ 1598  ./amplxe-gui
+ 1599  chmod +x amplxe-gui
+ 1600  ./amplxe-gui
+ 1601  sudo ./amplxe-gui
+ 1602  sudo ./amplxe-cl
+ 1603  sudo ./amplxe-cl -collect memory-access ~/a.out 
+ 1604  sudo /home/asinha/intel/vtune_amplifier/bin64/amplxe-cl -collect memory-access 
+ 1605  pwd
+ 1606  cd ~/sga/src/examples/
+ 1607  ls
+ 1608  vi readme
+ 1609  vi sga-celegans-profiling.sh
+ 1610  vi readme
+ 1611  vi sga-celegans-profiling.sh
+ 1612  vi readme
+ 1613  ls -gh /home/asinha/fastq_SRR065390/SRR065390.fastq"
+ 1614  ls -gh /home/asinha/fastq_SRR065390/SRR065390.fastq
+ 1615  vi readme
+ 1616  sudo /home/asinha/intel/vtune_amplifier/bin64/amplxe-cl -collect memory-access /home/asinha/sga/src/SGA/sga --options="index -a ropebwt -t 1 --no-reverse /home/asinha/fastq_SRR065390/SRR065390.fastq"
+ 1617  sudo /home/asinha/intel/vtune_amplifier/bin64/amplxe-cl -collect memory-access /home/asinha/sga/src/SGA/sga index -a ropebwt -t 1 --no-reverse /home/asinha/fastq_SRR065390/SRR065390.fastq
+ 1618  ls -gh /home/asinha/fastq_SRR065390/SRR065390.fastq
+ 1619  vi /home/asinha/fastq_SRR065390/SRR065390.fastq
+ 1620  ls
+ 1621  vi sga-celegans.sh
+ 1622  ls /home/asinha/fastq_SRR065390/
+ 1623  ls -gh /home/asinha/fastq_SRR065390/SRR065390_1.fastq
+ 1624  sudo /home/asinha/intel/vtune_amplifier/bin64/amplxe-cl -collect memory-access /home/asinha/sga/src/SGA/sga index -a ropebwt -t 1 --no-reverse /home/asinha/fastq_SRR065390/SRR065390_1wq.fastq
+ 1625  sudo /home/asinha/intel/vtune_amplifier/bin64/amplxe-cl -collect memory-access /home/asinha/sga/src/SGA/sga index -a ropebwt -t 1 --no-reverse /home/asinha/fastq_SRR065390/SRR065390_1.fastq
+ 1626  mv /home/asinha/fastq_SRR065390/SRR065390.fastq /home/asinha/fastq_SRR065390/SRR065390_small.fastq
+ 1627  mv /home/asinha/fastq_SRR065390/SRR065390_1.fastq /home/asinha/fastq_SRR065390/SRR065390.fastq
+ 1628  sudo /home/asinha/intel/vtune_amplifier/bin64/amplxe-cl -collect memory-access /home/asinha/sga/src/SGA/sga index -a ropebwt -t 1 --no-reverse /home/asinha/fastq_SRR065390/SRR065390.fastq
+ 1629  ls
+ 1630  vi remaining.sh 
+ 1631  vi sga-celegans.sh
+ 1632  ls -gh /home/asinha/fastq_SRR065390/SRR065390_1.fastq
+ 1633  vi sga-celegans.sh
+ 1634  vi sga-celegans-profiling.sh
+ 1635  ls /home/asinha/fastq_SRR065390/SRR065390_1.fastq
+ 1636  ls /home/asinha/fastq_SRR065390/SRR065390.fastq
+ 1637  ls -gh /home/asinha/fastq_SRR065390/*
+ 1638  mv /home/asinha/fastq_SRR065390/SRR065390.fastq /home/asinha/fastq_SRR065390/SRR065390_1.fastq
+ 1639  vi sga-celegans-profiling.sh
+ 1640  vi readme 
+ 1641  vi sga-celegans-profiling.sh
+ 1642  ./sga-celegans-profiling.sh
+ 1643  vi sga-celegans-profiling.sh
+ 1644  ./sga-celegans-profiling.sh | index_profile_vtune
+ 1645  ./sga-celegans-profiling.sh >> index_profile_vtune
+ 1646  vi sga-celegans-profiling.sh
+ 1647  ./sga-celegans-profiling.sh >> index_profile_vtune_1core
+ 1648  vi index_profile_vtune_1core 
+ 1649  vi sga-celegans-profiling.sh
+ 1650  ./sga-celegans-profiling.sh >> ec_profile_vtune_24cores
+ 1651  vi sga-celegans-profiling.sh
+ 1652  source .bashrc
+ 1653  vi history.txt 
+ 1654  ssh amansinha93@140.110.148.11
+ 1655  top
+ 1656  cd ~/sga/src/examples
+ 1657  ls -gh index_profile_vtune
+ 1658  vi index_profile_vtune
+ 1659  ls -gh index_profile_vtune
+ 1660  top
+ 1661  ls -gh index_profile_vtune
+ 1662  vi index_profile_vtune 
+ 1663  ls -gh index_profile_vtune
+ 1664  vi index_profile_vtune 
+ 1665  mv index_profile_vtune index_profile_vtune_24cores
+ 1666  ls -gh index_profile_vtune_1core 
+ 1667  top
+ 1668  ls -gh index_profile_vtune_1core 
+ 1669  top
+ 1670  ls -gh index_profile_vtune_1core 
+ 1671  vi index_profile_vtune_1core 
+ 1672  vi index_profile_vtune_24cores 
+ 1673  ls -gh index_profile_vtune_1core 
+ 1674  top
+ 1675  ls -gh index_profile_vtune_1core 
+ 1676  top
+ 1677  ls -gh index_profile_vtune_1core 
+ 1678  vi index_profile_vtune_24cores 
+ 1679  top
+ 1680  ls -gh /home/asinha/sga/src/examples/r008macc
+ 1681  ls -gh /home/asinha/sga/src/examples/r008macc/data.0
+ 1682  ls -gh /home/asinha/sga/src/examples/r008macc/log/
+ 1683  top
+ 1684  vi index_profile_vtune_24cores 
+ 1685  ls -gh ec_profile_vtune_24cores
+ 1686  cat ec_profile_vtune_24cores | cat 50
+ 1687  cat ec_profile_vtune_24cores | head -50
+ 1688  cat ec_profile_vtune_24cores | head -500 | tail -50
+ 1689  rm ec_profile_vtune_24cores
+ 1690  vi ~/history.txt 
+ 1691  cd ..
+ 1692  ls
+ 1693  cd SGA
+ 1694  ls
+ 1695  vi correct.h
+ 1696  vi correct.cpp 
+ 1697  vi kmer-count.h
+ 1698  vi kmer-count.cpp 
+ 1699  cd ../Algorithm/
+ 1700  ls
+ 1701  vi ErrorCorrectProcess.h
+ 1702  vi ErrorCorrectProcess.cpp 
+ 1703  make
+ 1704  cd ../SGA/
+ 1705  make
+ 1706  cd ..
+ 1707  make
+ 1708  cd examples/
+ 1709  ls -gh ec_profile_vtune_24cores
+ 1710  vi ec_profile_vtune_24cores
+ 1711  cd ../Algorithm/
+ 1712  ls
+ 1713  vi ErrorCorrectProcess.cpp
+ 1714  make
+ 1715  cd ../SGA/
+ 1716  make
+ 1717  cd ..
+ 1718  make
+ 1719  cd examples/
+ 1720  rm ec_profile_vtune_24cores
+ 1721  ls -gh ec_profile_vtune_24cores
+ 1722  vi ec_profile_vtune_24cores 
+ 1723  ls -gh ec_profile_vtune_24cores
+ 1724  vi ec_profile_vtune_24cores 
+ 1725  ls -gh ec_profile_vtune_24cores
+ 1726  vi ec_profile_vtune_24cores 
+ 1727  mv ec_profile_vtune_24cores ec_profile_vtune_24cores_defaultsampling
+ 1728  vi sga-celegans-profiling.sh
+ 1729  source .bashrc
+ 1730  vi history.txt 
+ 1731  ssh amansinha93@140.110.148.11
+ 1732  exit
+ 1733  source .bashrc
+ 1734  ls DAC_code/
+ 1735  cd DAC_code/
+ 1736  nvcc --compiler-options '-fPIC' -o rangejoin_cu.so -c bin_index.cu -gencode arch=compute_60,code=sm_60 --shared
+ 1737  which nvcc
+ 1738  ls /usr/local/cuda-10.0/bin/nvcc --compiler-options '-fPIC' -o rangejoin_cu.so -c bin_index.cu -gencode arch=compute_60,code=sm_60 --shared
+ 1739  ls /usr/local/cuda-9.0/bin/nvcc --compiler-options '-fPIC' -o rangejoin_cu.so -c bin_index.cu -gencode arch=compute_60,code=sm_60 --shared
+ 1740  vi ../.bashrc
+ 1741  /usr/local/cuda-9.0/bin/nvcc --compiler-options '-fPIC' -o rangejoin_cu.so -c bin_index.cu -gencode arch=compute_60,code=sm_60 --shared
+ 1742  ls
+ 1743  mpicxx -std=c++0x -c rangejoin_bed_bed_v1.cpp -o rangejoin_mpi.o
+ 1744  mpicxx -std=c++0x rangejoin_mpi.o rangejoin_cu.so -lcudart -L/pkg/cuda/8.0.61/lib64/ -o rangejoin_bed_bed_v1
+ 1745  mpicxx -std=c++0x rangejoin_mpi.o rangejoin_cu.so -lcudart -L/usr/local/cuda-9.0/lib64/ -o rangejoin_bed_bed_v1
+ 1746  vi readme
+ 1747  cd ../sga/src/examples/
+ 1748  ls
+ 1749  vi sga-celegans-profiling.sh
+ 1750  ./sga-celegans-profiling.sh >> ec_profile_vtune_24cores_hotspots
+ 1751  vi sga-celegans-profiling.sh
+ 1752  rm ec_profile_vtune_24cores_hotspots
+ 1753  ./sga-celegans-profiling.sh >> ec_profile_vtune_24cores_hotspots
+ 1754  sudo /home/asinha/intel/vtune_amplifier/bin64/amplxe-cl -help collect hotspots 
+ 1755  rm ec_profile_vtune_24cores_hotspots
+ 1756  vi sga-celegans-profiling.sh
+ 1757  ./sga-celegans-profiling.sh >> ec_profile_vtune_24cores_hotspots
+ 1758  source .bashrc
+ 1759  ls -gh ec_profile_vtune_24cores_hotspots
+ 1760  ls -gh sga/src/examples/ec_profile_vtune_24cores_hotspots
+ 1761  cd DAC_code/
+ 1762  ls
+ 1763  vi readme 
+ 1764  ls
+ 1765  ls -gh sga/src/examples/ec_profile_vtune_24cores_hotspots
+ 1766  ls -gh ../sga/src/examples/ec_profile_vtune_24cores_hotspots
+ 1767  vi ../sga/src/examples/ec_profile_vtune_24cores_hotspots
+ 1768  vi ~/.bashrc
+ 1769  ls -gh sga/src/examples/ec_profile_vtune_24cores_hotspots
+ 1770  cd ..
+ 1771  ls -gh sga/src/examples/ec_profile_vtune_24cores_hotspots
+ 1772  vi sga/src/examples/ec_profile_vtune_24cores_hotspots
+ 1773  ls -gh sga/src/examples/ec_profile_vtune_24cores_hotspots
+ 1774  top
+ 1775  ls /home/asinha/sga/src/examples/r011hs
+ 1776  ls /home/asinha/sga/src/examples/r011hs/log
+ 1777  ls /home/asinha/sga/src/examples/r011hs/data.0/
+ 1778  ls -gh /home/asinha/sga/src/examples/r011hs/data.0/sep7f326653b700.20200408T125746.451452.tb7 
+ 1779  source .bashrc
+ 1780  rm -rf /home/asinha/sga/src/examples/r011hs
+ 1781  sudo rm -rf /home/asinha/sga/src/examples/r011hs
+ 1782  jobs
+ 1783  top
+ 1784  amplxe-cl -r /home/asinha/sga/src/examples/r011ah -command stop
+ 1785  sudo /home/asinha/intel/vtune_amplifier/bin64/amplxe-cl -r /home/asinha/sga/src/examples/r011ah -command stop
+ 1786  top
+ 1787  source ssh amansinha93@140.110.148.11
+ 1788  source .bashrc
+ 1789  top
+ 1790  source .bashrc
+ 1791  cd /home/asinha/sga/src/examples/
+ 1792  vi sga-celegans-profiling.sh
+ 1793  rm ec_profile_vtune_24cores_hotspots
+ 1794  vi nohup.out 
+ 1795  ls -gh nohup.out 
+ 1796  cat nohup.out | head -100
+ 1797  mv nohup.out index_out
+ 1798  nohup ./sga-celegans-profiling.sh &
+ 1799  vi nohup.out 
+ 1800  top
+ 1801  rm nohup.out 
+ 1802  vi sga-celegans-profiling.sh
+ 1803  nohup sudo /home/asinha/intel/vtune_amplifier/bin64/amplxe-cl -collect advanced-hotspots -data-limit=102400 -knob sampling-mode=hw $SGA_BIN correct -k $CK --discard --learn -t $CPU -o /home/asinha/fastq_SRR065390/reads.ec.k$CK-profiling.fastq /home/asinha/fastq_SRR065390/SRR065390.fastq &
+ 1804  vi nohup.out 
+ 1805  rm nohup.out 
+ 1806  sudo nohup /home/asinha/intel/vtune_amplifier/bin64/amplxe-cl -collect advanced-hotspots -data-limit=102400 -knob sampling-mode=hw $SGA_BIN correct -k $CK --discard --learn -t $CPU -o /home/asinha/fastq_SRR065390/reads.ec.k$CK-profiling.fastq /home/asinha/fastq_SRR065390/SRR065390.fastq &
+ 1807  sudo /home/asinha/intel/vtune_amplifier/bin64/amplxe-cl -collect advanced-hotspots -data-limit=102400 -knob sampling-mode=hw $SGA_BIN correct -k $CK --discard --learn -t $CPU -o /home/asinha/fastq_SRR065390/reads.ec.k$CK-profiling.fastq /home/asinha/fastq_SRR065390/SRR065390.fastq &
+ 1808  ./sga-celegans-profiling.sh >> ec_profile_vtune_24cores_hotspots
+ 1809  rm ec_profile_vtune_24cores_hotspots
+ 1810  vi sga-celegans-profiling.sh
+ 1811  ./sga-celegans-profiling.sh >> ec_profile_vtune_24cores_hotspots
+ 1812  rm ec_profile_vtune_24cores_hotspots
+ 1813  vi sga-celegans-profiling.sh
+ 1814  ./sga-celegans-profiling.sh
+ 1815  vi nohup.out 
+ 1816  ls
+ 1817  ls -gh r012ah/data.0/
+ 1818  vi r012ah/data.0/sep7f40f08ce700.20200408T215013.188338.tb7
+ 1819  source .bashrc
+ 1820  vi history.txt 
+ 1821  ssh amansinha93@140.110.148.11
+ 1822  perf mem record ./a.out 
+ 1823  sudo apt-get install linux-tools-4.15.0-91-generic linux-cloud-tools-4.15.0-91-generic linux-tools-generic
+ 1824  perf mem record ./a.out 
+ 1825  perf mem report --stdio
+ 1826  ls *fAdrenal*
+ 1827  ssh amansinha93@140.110.148.11
+ 1828  wget http://burcak.ceng.metu.edu.tr/joa/fAdrenal-DS20343.hg19.hotspot.twopass.fdr0.05.merge.bed
+ 1829  vi fAdrenal-DS20343.hg19.hotspot.twopass.fdr0.05.merge.bed
+ 1830  ls BIRJ/
+ 1831  ssh amansinha93@140.110.148.11
+ 1832  source .bashrc
+ 1833  ssh amansinha93@140.110.148.11
+ 1834  source .bashrc
+ 1835  ssh amansinha93@140.110.148.11
+ 1836  source .bashrc
+ 1837  ssh amansinha93@140.110.148.11
+ 1838  source .bashrc
+ 1839  ssh amansinha93@ln01.twcc.ai
+ 1840  source .bashrc
+ 1841  ssh amansinha93@140.110.148.11
+ 1842  wget http://hgdownload.soe.ucsc.edu/goldenPath/hg18/encodeDCC/wgEncodeRegDnaseClustered/wgEncodeRegDnaseClustered.bed.gz
+ 1843  gunzip wgEncodeRegDnaseClustered.bed.gz
+ 1844  vi wgEncodeRegDnaseClustered.bed 
+ 1845  wget ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf.gz
+ 1846  gunzip ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf.gz 
+ 1847  vi ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf 
+ 1848  vcf2bed ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf.gz | head -10
+ 1849  vcf2bed -input=vcf < ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf.gz > | head -10
+ 1850  vcf2bed -input=vcf < ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf.gz 
+ 1851  vcf2bed -input=vcf < ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf.gz >
+ 1852  vcf2bed -input=vcf ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf.gz
+ 1853  vcf2bed < ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf > | head -10
+ 1854  vcf2bed < ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf >
+ 1855  vcf2bed < ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf > ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.bed
+ 1856  vi ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.bed
+ 1857  rm ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.bed
+ 1858  ssh amansinha93@140.110.148.11
+ 1859  source .bashrc
+ 1860  ssh amansinha93@140.110.148.11
+ 1861  source .bashrc
+ 1862  ssh amansinha93@140.110.148.11
+ 1863  source .bashrc
+ 1864  ssh amansinha93@140.110.148.11
+ 1865  source .bashrc
+ 1866  ssh amansinha93@140.110.148.11
+ 1867  source .bashrc
+ 1868  wget http://hgdownload.soe.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeOpenChromDnase/wgEncodeOpenChromDnaseFibropag08395AlnRep3.bam
+ 1869  bamToBed -i wgEncodeOpenChromDnaseFibropag08395AlnRep3.bam | head -5
+ 1870  bamToBed -i wgEncodeOpenChromDnaseFibropag08395AlnRep3.bam | head -20
+ 1871  bamToBed -i wgEncodeOpenChromDnaseFibropag08395AlnRep3.bam >> wgEncodeOpenChromDnaseFibropag08395AlnRep3.bed
+ 1872  vi wgEncodeOpenChromDnaseFibropag08395AlnRep3.bed
+ 1873  ls -gh wgEncodeOpenChromDnaseFibropag08395AlnRep3.bed
+ 1874  rm wgEncodeOpenChromDnaseFibropag08395AlnRep3.bam
+ 1875  scp wgEncodeOpenChromDnaseFibropag08395AlnRep3.bed amansinha93@140.110.148.11:/work1/amansinha93
+ 1876  ssh amansinha93@140.110.148.11
+ 1877  source .bashrc
+ 1878  sort -k1,1 -k2,2n wgEncodeOpenChromDnaseFibropag08395AlnRep3.bed > wgEncodeOpenChromDnaseFibropag08395AlnRep3.sorted.bed
+ 1879  cat wgEncodeOpenChromDnaseFibropag08395AlnRep3.sorted.bed  | sed 's/\|/ /'|awk '{print $1}' >> first_col_check.txt
+ 1880  vi first_col_check.txt 
+ 1881  rm first_col_check.txt 
+ 1882  scp wgEncodeOpenChromDnaseFibropag08395AlnRep3.sorted.bed amansinha93@140.110.148.11:/work1/amansinha93
+ 1883  source .bashrc
+ 1884  ls sga/src/examples/
+ 1885  vi sga/src/examples/sga-celegans.sh
+ 1886  source .bashrc
+ 1887  ssh amansinha93@140.110.148.11
+ 1888  source .bashrc
+ 1889  ssh amansinha93@ln01.twcc.ai
+ 1890  source .bashrc
+ 1891  ssh amansinha93@140.110.148.11
+ 1892  source .bashrc
+ 1893  ssh amansinha93@140.110.148.11
+ 1894  source .bashrc
+ 1895  ssh amansinha93@140.110.148.11
+ 1896  source .bashrc
+ 1897  vi index_cpu.bed
+ 1898  vi index_gpu.bed
+ 1899  source .bashrc
+ 1900  pwd
+ 1901  source .bashrc
+ 1902  vi check_index.py
+ 1903  python check_index.py | head -10
+ 1904  vi check_index.py
+ 1905  python check_index.py | head -10
+ 1906  vi check_index.py
+ 1907  python check_index.py | head -10
+ 1908  vi check_index.py
+ 1909  python check_index.py | head -10
+ 1910  vi check_index.py
+ 1911  python check_index.py | head -10
+ 1912  vi check_index.py
+ 1913  python check_index.py | head -10
+ 1914  vi check_index.py
+ 1915  python check_index.py | head -10
+ 1916  vi check_index.py
+ 1917  python check_index.py | head -10
+ 1918  vi check_index.py
+ 1919  python check_index.py | head -10
+ 1920  vi check_index.py
+ 1921  python check_index.py | head -10
+ 1922  vi check_index.py
+ 1923  python check_index.py | head -10
+ 1924  gedit check_index.py 
+ 1925  vi check_index.py
+ 1926  python check_index.py
+ 1927  vi check_index.py
+ 1928  ls -gh index_diff.bed
+ 1929  vi index_diff.bed
+ 1930  source .bashrc
+ 1931  wc -l index_gpu.bed 
+ 1932  wc -l index_cpu.bed 
+ 1933  diff index_gpu.bed index_cpu.bed | head -2
+ 1934  cat index_gpu.bed | head -5
+ 1935  cat index_cpu.bed | head -5
+ 1936  comp index_gpu.bed index_cpu.bed | head -2
+ 1937  compare index_gpu.bed index_cpu.bed | head -2
+ 1938  cmp index_gpu.bed index_cpu.bed | head -2
+ 1939  cmp index_gpu.bed index_cpu.bed | head -10
+ 1940  source .bashrc
+ 1941  vi index_diff.bed
+ 1942  rm index_diff.bed
+ 1943  vi check_index.py
+ 1944  python check_index.py
+ 1945  vi index_diff.bed 
+ 1946  source .bashrc
+ 1947  ssh amansinha93@ln01.twcc.ai
+ 1948  source .bashrc
+ 1949  ssh amansinha93@140.110.148.11
+ 1950  vi index_gpu.bed 
+ 1951  source .bashrc
+ 1952  ssh amansinha93@ln01.twcc.ai
+ 1953  source .bashrc
+ 1954  vi query.bed
+ 1955  vi b.bed
+ 1956  bedtools intersect -a query.bed -b b.bed -bed
+ 1957  bedtools intersect -wa -wb -a query.bed -b b.bed -bed
+ 1958  perf bedtools intersect -wa -wb -a query.bed -b b.bed -bed
+ 1959  perf stats bedtools intersect -wa -wb -a query.bed -b b.bed -bed
+ 1960  perf stat bedtools intersect -wa -wb -a query.bed -b b.bed -bed
+ 1961  perf record bedtools intersect -wa -wb -a query.bed -b b.bed -bed
+ 1962  perf report
+ 1963  perf record -g bedtools intersect -wa -wb -a query.bed -b b.bed -bed
+ 1964  perf report
+ 1965  source .bashrc
+ 1966  pwd
+ 1967  ls NA12878.mapped_only.ILLUMINA.bwa.CEU.high_coverage_pcr_free.20130906.bam.bed
+ 1968  sort -k1,1 -k2,2n NA12878.mapped_only.ILLUMINA.bwa.CEU.high_coverage_pcr_free.20130906.bam.bed > NA12878.mapped_only.ILLUMINA.bwa.CEU.high_coverage_pcr_free.20130906.bam.sorted.bed
+ 1969  scp NA12878.mapped_only.ILLUMINA.bwa.CEU.high_coverage_pcr_free.20130906.bam.sorted.bed amansinha93@140.110.148.11:/work1/amansinha93/BIRJ_results/bedtools_data/
+ 1970  vi query.bed 
+ 1971  vi b.bed 
+ 1972  vi query.bed 
+ 1973  bedtools intersect -wa -wb -a query.bed -b b.bed -sorted -bed
+ 1974  vi query.bed 
+ 1975  bedtools intersect -wa -wb -a query.bed -b b.bed -sorted -bed
+ 1976  vi b.bed 
+ 1977  bedtools intersect -wa -wb -a query.bed -b b.bed -sorted -bed
+ 1978  ssh amansinha93@ln01.twcc.ai
+ 1979  source .bashrc
+ 1980  ssh amansinha93@140.110.148.11
+ 1981  ls -gh NA12878.mapped_only.ILLUMINA.bwa.CEU.high_coverage_pcr_free.20130906.bam.sorted.bed 
+ 1982  vi NA12878.mapped_only.ILLUMINA.bwa.CEU.high_coverage_pcr_free.20130906.bam.sorted.bed 
+ 1983  ssh amansinha93@140.110.148.11
+ 1984  source .bashrc
+ 1985  cd sga/src/examples/
+ 1986  ls
+ 1987  ls -gh test1.log
+ 1988  ls *.log
+ 1989  vi test1.log 
+ 1990  ls -gh nohup.out 
+ 1991  vi nohup.out 
+ 1992  vi log.txt 
+ 1993  vi last_nohup.out 
+ 1994  vi sga-celegans.sh
+ 1995  ls ~/work/devel/sga/src/bin/sga-align
+ 1996  vi sga-celegans.sh
+ 1997  ls ../bin/sga*
+ 1998  vi sga-celegans.sh
+ 1999  ls *.pe
+ 2000  vi sga-celegans.sh
+ 2001  source .bashrc
+ 2002  mkdir K_Step_FM_Index
+ 2003  cd K_Step_FM_Index
+ 2004  vi create_index.c
+ 2005  vi create_index.cpp
+ 2006  vi create_index.h
+ 2007  vi create_index.cpp
+ 2008  vi create_index.h
+ 2009  g++ create_index.cpp
+ 2010  ./a.out 
+ 2011  vi create_index.h
+ 2012  vi create_index.cpp
+ 2013  vi create_index.h
+ 2014  vi create_index.cpp
+ 2015  g++ create_index.cpp
+ 2016  vi create_index.h
+ 2017  g++ create_index.cpp
+ 2018  vi create_index.h
+ 2019  g++ create_index.cpp
+ 2020  vi create_index.h
+ 2021  vi create_index.cpp
+ 2022  g++ create_index.cpp
+ 2023  ./a.out 
+ 2024  vi create_index.cpp
+ 2025  vi create_index.h
+ 2026  g++ create_index.cpp
+ 2027  ./a.out 
+ 2028  vi create_index.h
+ 2029  g++ create_index.cpp
+ 2030  ./a.out 
+ 2031  vi create_index.h
+ 2032  g++ create_index.cpp
+ 2033  ./a.out 
+ 2034  vi create_index.h
+ 2035  g++ create_index.cpp
+ 2036  ./a.out 
+ 2037  vi create_index.h
+ 2038  g++ create_index.cpp
+ 2039  vi create_index.h
+ 2040  ./a.out 
+ 2041  g++ create_index.cpp
+ 2042  vi create_index.h
+ 2043  g++ create_index.cpp
+ 2044  ./a.out 
+ 2045  vi create_index.h
+ 2046  g++ create_index.cpp
+ 2047  vi create_index.h
+ 2048  g++ create_index.cpp
+ 2049  ./a.out 
+ 2050  vi create_index.h
+ 2051  vi create_index.cpp 
+ 2052  g++ create_index.cpp
+ 2053  ./a.out 
+ 2054  vi create_index.cpp 
+ 2055  g++ create_index.cpp
+ 2056  ./a.out 
+ 2057  vi create_index.cpp 
+ 2058  vi create_index.h
+ 2059  g++ create_index.cpp
+ 2060  ./a.out 
+ 2061  vi create_index.h
+ 2062  g++ create_index.cpp
+ 2063  ./a.out 
+ 2064  vi create_index.h
+ 2065  vi create_index.cpp 
+ 2066  g++ create_index.cpp
+ 2067  vi create_index.cpp 
+ 2068  g++ create_index.cpp
+ 2069  ./a.out 
+ 2070  vi create_index.cpp 
+ 2071  vi create_index.h
+ 2072  g++ create_index.cpp
+ 2073  ./a.out 
+ 2074  vi create_index.cpp 
+ 2075  vi create_index.h
+ 2076  vi create_index.cpp 
+ 2077  g++ create_index.cpp
+ 2078  vi create_index.cpp 
+ 2079  g++ create_index.cpp
+ 2080  ./a.out 
+ 2081  vi create_index.cpp 
+ 2082  vi create_index.h
+ 2083  g++ create_index.cpp
+ 2084  ./a.out 
+ 2085  vi create_index.h
+ 2086  g++ create_index.cpp
+ 2087  ./a.out 
+ 2088  vi create_index.h
+ 2089  vi create_index.cpp 
+ 2090  g++ create_index.cpp
+ 2091  vi create_index.cpp 
+ 2092  g++ create_index.cpp
+ 2093  ./a.out 
+ 2094  vi create_index.cpp 
+ 2095  g++ create_index.cpp
+ 2096  ./a.out 
+ 2097  vi create_index.h
+ 2098  vi create_index.cpp 
+ 2099  g++ create_index.cpp
+ 2100  vi create_index.cpp 
+ 2101  g++ create_index.cpp
+ 2102  ./a.out 
+ 2103  vi create_index.cpp 
+ 2104  vi create_index.h
+ 2105  g++ create_index.cpp
+ 2106  ./a.out 
+ 2107  vi create_index.h
+ 2108  g++ create_index.cpp
+ 2109  ./a.out 
+ 2110  vi create_index.h
+ 2111  vi create_index.cpp 
+ 2112  g++ create_index.cpp
+ 2113  ./a.out 
+ 2114  vi create_index.cpp 
+ 2115  vi create_index.h 
+ 2116  g++ create_index.cpp
+ 2117  ./a.out 
+ 2118  vi create_index.cpp 
+ 2119  g++ create_index.cpp
+ 2120  vi create_index.cpp 
+ 2121  g++ create_index.cpp
+ 2122  ./a.out 
+ 2123  vi create_index.cpp 
+ 2124  g++ create_index.cpp
+ 2125  ./a.out 
+ 2126  vi create_index.cpp 
+ 2127  history >> history.txt
