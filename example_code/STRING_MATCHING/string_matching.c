@@ -9,14 +9,6 @@
 #define DPU_NUM 64
 #define CORPUS_SIZE 4096
 
-typedef struct{
-  char a[4];
-  //int a;
-  int b;
-  double c;
-  char d[8];
-}struct1;
-
 __mram_noinit uint8_t QUERY[QUERY_SIZE];
 __mram_noinit uint8_t CORPUS[CORPUS_SIZE];
 __mram_noinit struct1 s;
@@ -95,9 +87,6 @@ int main()
     printf("Got total %d matches\n", count);
     perfcounter_t runtime = perfcounter_get();
     printf("DPU runtime = %lu\n", runtime);
-    printf("%c, %d, %f, %c", s.a[1], s.b, s.c, s.d[0]);
-    if(s.d[0] == 'i') printf("right");
-    else printf("wrong");
 
     return 0;
 }

@@ -43,13 +43,6 @@ void populate_mram(struct dpu_set_t set) {
 }
 
 int main() {
-  struct1 s = {
-    .a = {"ivan"},
-    //.a = 7,
-    .b = 511,
-    .c = 500,
-    .d = {"abcdefgh"}
-  };
   FILE *f = fopen("corpus.txt", "r");
   if(f == NULL){
 	printf("File Opening Error!");
@@ -73,8 +66,6 @@ int main() {
 	  fgets(CORPUS, CORPUS_SIZE + 1, f);
     //printf("%s", CORPUS);
 	  DPU_ASSERT(dpu_copy_to(dpu, "CORPUS", 0, CORPUS, CORPUS_SIZE));
-    //printf("%d", sizeof(s));
-    DPU_ASSERT(dpu_copy_to(dpu, "s", 0, &s, sizeof(s))); 
   }
     
   DPU_ASSERT(dpu_launch(set, DPU_SYNCHRONOUS));

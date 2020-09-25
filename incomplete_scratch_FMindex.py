@@ -23,7 +23,6 @@ corpus = "ataattcccgg$" # $ indicates the end of a string
 
 alphabet = ('A', 'T', 'C', 'G')
 
-
 class FMindex():
     def __init__(self, corpus, tally_ratio=1/len(corpus), SA_ratio=1/len(corpus), step=1):
         self.corpus = corpus
